@@ -25,4 +25,5 @@ def deleteNote():
 
 
 # it is responsible to server on 
-app.run(debug=True)        #shortcut to server on/off option
+if (__name__ == "__main__"): 
+ app.run(debug=True)        #shortcut to server on/off option
